@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+button{
+    border-radius: 5px;
+    border: solid 1px silver;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.todo-container{
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.input-section{
+    background-color: #ececec;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(23, 22, 22, 0.2);
+
+}
+.input-section input{
+    border-radius: 5px;
+    border: solid 1px silver;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+ul{
+    padding: 0px;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul li{
+    display: flex;
+    list-style: none;
+    background-color: #fff;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+
+}
+ul li i{
+    text-align: right;
+    flex: 1;
+}
+
+.todo-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f9f9f9;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+}
+
+.list li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
